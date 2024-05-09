@@ -1,0 +1,31 @@
+.Container-full{
+    display: flex;
+    width: 150vh;
+    height: 150px;
+    margin: auto;
+    margin-top: 5px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.image{
+    display: flex;
+    width: 40%;
+    /* background-color: blue; */
+}
+.image img {
+    width: 45%;
+    height: 65%;
+    display: block;
+    margin: auto auto;
+
+}
+.detail .Action{
+    position: absolute;
+    right: 250px;
+}
+.delete-btn {
+    color: #e10d05;
+  }
+.edit-btn{
+    margin-left: 10px;
+    cursor: pointer;
+}
